@@ -30,8 +30,11 @@
 .main {
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  grid-row-start: 2;
+  /* gap: 32px;
+  grid-row-start: 2; */
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
 }
 
 .main ol {
