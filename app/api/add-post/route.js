@@ -11,7 +11,9 @@ export async function POST(request){
             content,
             published: true,
             author: {
-                create: {name: 'Gitika'}
+                create: {
+                    email: 'gitikabhatia@gmail.com',
+                }
             }
         }
     })
